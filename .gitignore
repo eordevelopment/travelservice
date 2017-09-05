@@ -4,3 +4,12 @@
 
 /.vs/TravelService/v15/sqlite3/storage.ide
 /.vs/TravelService/v15/.suo
+/TravelService/bin/Debug/netcoreapp2.0
+/TravelService/obj/Debug/netcoreapp2.0
+/TravelService/obj
+/TravelService.Contract/bin/Debug/netcoreapp2.0
+/TravelService.Contract/obj/Debug/netcoreapp2.0
+/TravelService.Contract/obj
+/TravelService.Db.Mongo/bin/Debug/netcoreapp2.0
+/TravelService.Db.Mongo/obj/Debug/netcoreapp2.0
+/TravelService.Db.Mongo/obj
