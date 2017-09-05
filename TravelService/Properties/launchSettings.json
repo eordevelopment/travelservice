@@ -1,0 +1,13 @@
+{
+    "profiles": {
+        "TravelService": {
+            "commandName": "Project",
+            "launchBrowser": true,
+            "launchUrl": "api/status",
+            "environmentVariables": {
+                "ASPNETCORE_ENVIRONMENT": "Development"
+            },
+            "applicationUrl": "http://localhost:57237/"
+        }
+    }
+}
