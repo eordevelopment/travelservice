@@ -1,9 +1,0 @@
-C:\Users\eoriordan\Documents\dev\TravelService\TravelService.Contract\bin\Debug\netcoreapp2.0\TravelService.Contract.deps.json
-C:\Users\eoriordan\Documents\dev\TravelService\TravelService.Contract\bin\Debug\netcoreapp2.0\TravelService.Contract.dll
-C:\Users\eoriordan\Documents\dev\TravelService\TravelService.Contract\bin\Debug\netcoreapp2.0\TravelService.Contract.pdb
-C:\Users\eoriordan\Documents\dev\TravelService\TravelService.Contract\obj\Debug\netcoreapp2.0\TravelService.Contract.csproj.CoreCompileInputs.cache
-C:\Users\eoriordan\Documents\dev\TravelService\TravelService.Contract\obj\Debug\netcoreapp2.0\TravelService.Contract.AssemblyInfoInputs.cache
-C:\Users\eoriordan\Documents\dev\TravelService\TravelService.Contract\obj\Debug\netcoreapp2.0\TravelService.Contract.AssemblyInfo.cs
-C:\Users\eoriordan\Documents\dev\TravelService\TravelService.Contract\obj\Debug\netcoreapp2.0\TravelService.Contract.dll
-C:\Users\eoriordan\Documents\dev\TravelService\TravelService.Contract\obj\Debug\netcoreapp2.0\TravelService.Contract.pdb
-C:\Users\eoriordan\Documents\dev\TravelService\TravelService.Contract\obj\Debug\netcoreapp2.0\TravelService.Contract.csprojResolveAssemblyReference.cache

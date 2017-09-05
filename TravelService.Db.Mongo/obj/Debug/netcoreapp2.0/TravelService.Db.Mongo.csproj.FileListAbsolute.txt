@@ -1,9 +1,0 @@
-C:\Users\eoriordan\Documents\dev\TravelService\TravelService.Db.Mongo\bin\Debug\netcoreapp2.0\TravelService.Db.Mongo.deps.json
-C:\Users\eoriordan\Documents\dev\TravelService\TravelService.Db.Mongo\bin\Debug\netcoreapp2.0\TravelService.Db.Mongo.dll
-C:\Users\eoriordan\Documents\dev\TravelService\TravelService.Db.Mongo\bin\Debug\netcoreapp2.0\TravelService.Db.Mongo.pdb
-C:\Users\eoriordan\Documents\dev\TravelService\TravelService.Db.Mongo\obj\Debug\netcoreapp2.0\TravelService.Db.Mongo.csprojResolveAssemblyReference.cache
-C:\Users\eoriordan\Documents\dev\TravelService\TravelService.Db.Mongo\obj\Debug\netcoreapp2.0\TravelService.Db.Mongo.csproj.CoreCompileInputs.cache
-C:\Users\eoriordan\Documents\dev\TravelService\TravelService.Db.Mongo\obj\Debug\netcoreapp2.0\TravelService.Db.Mongo.AssemblyInfoInputs.cache
-C:\Users\eoriordan\Documents\dev\TravelService\TravelService.Db.Mongo\obj\Debug\netcoreapp2.0\TravelService.Db.Mongo.AssemblyInfo.cs
-C:\Users\eoriordan\Documents\dev\TravelService\TravelService.Db.Mongo\obj\Debug\netcoreapp2.0\TravelService.Db.Mongo.dll
-C:\Users\eoriordan\Documents\dev\TravelService\TravelService.Db.Mongo\obj\Debug\netcoreapp2.0\TravelService.Db.Mongo.pdb
