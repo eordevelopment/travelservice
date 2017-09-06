@@ -1,16 +1,17 @@
 ﻿using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
+using TravelService.Db.Mongo;
 
 namespace TravelService.Middleware
 {
     public class UserTokenPolicy : AuthorizationHandler<UserTokenPolicyRequirement>
     {
-        //private readonly IAccountRepository _accountRepository;
-        //public UserTokenPolicy(IAccountRepository accountRepository)
-        //{
-        //    this._accountRepository = accountRepository;
-        //}
+        private readonly IAccountRepository _accountRepository;
+        public UserTokenPolicy(IAccountRepository accountRepository)
+        {
+            this._accountRepository = accountRepository;
+        }
 
         protected override async Task HandleRequirementAsync(AuthorizationHandlerContext context, UserTokenPolicyRequirement requirement)
         {
@@ -49,11 +50,10 @@ namespace TravelService.Middleware
             }
         }
 
-        private Task<bool> IsValidToken(string token)
+        private async Task<bool> IsValidToken(string token)
         {
-            //var account = await this._accountRepository.FindByToken(token);
-            //return account != null;
-            return Task.FromResult(true);
+            var account = await this._accountRepository.FindByToken(token);
+            return account != null;
         }
     }
 }

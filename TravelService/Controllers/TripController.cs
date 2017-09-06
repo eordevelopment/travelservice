@@ -1,10 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using TravelService.Contract;
 
 namespace TravelService.Controllers
 {
+    [Authorize(Policy = "HasToken")]
     [Route("api/[controller]")]
     public class TripController : Controller
     {
@@ -22,6 +24,18 @@ namespace TravelService.Controllers
                     To = DateTimeOffset.Now.AddYears(-i).AddDays(14)
                 };
             }
+        }
+
+        [HttpGet("{id}")]
+        public TripDto Get(string id)
+        {
+            return new TripDto
+            {
+                Id = id,
+                Name = "Trip " + id,
+                From = DateTimeOffset.Now,
+                To = DateTimeOffset.Now.AddDays(14)
+            };
         }
     }
 }
