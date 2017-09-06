@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using TravelService.Db.Mongo;
+using TravelService.Db.Mongo.Repository;
 using TravelService.Middleware;
 
 namespace TravelService
@@ -37,7 +38,7 @@ namespace TravelService
             services.AddScoped<IAuthorizationHandler, UserTokenPolicy>();
             services.AddScoped<IDbContext, DbContext>(ctx => new DbContext(conn, db));
 
-            //services.AddScoped<IAccountRepository, AccountRepository>();
+            services.AddScoped<IAccountRepository, AccountRepository>();
             //services.AddScoped<ICategoryRepository, CategoryRepository>();
             //services.AddScoped<IItemRepository, ItemRepository>();
             //services.AddScoped<IRecipeTypeRepository, RecipeTypeRepository>();
