@@ -13,3 +13,6 @@
 /TravelService.Db.Mongo/bin/Debug/netcoreapp2.0
 /TravelService.Db.Mongo/obj/Debug/netcoreapp2.0
 /TravelService.Db.Mongo/obj
+/TravelService.Tests/bin/Debug/netcoreapp2.0
+/TravelService.Tests/obj/Debug/netcoreapp2.0
+/TravelService.Tests/obj

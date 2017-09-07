@@ -39,13 +39,7 @@ namespace TravelService
             services.AddScoped<IDbContext, DbContext>(ctx => new DbContext(conn, db));
 
             services.AddScoped<IAccountRepository, AccountRepository>();
-            //services.AddScoped<ICategoryRepository, CategoryRepository>();
-            //services.AddScoped<IItemRepository, ItemRepository>();
-            //services.AddScoped<IRecipeTypeRepository, RecipeTypeRepository>();
-            //services.AddScoped<IRecipeRepository, RecipeRepository>();
-            //services.AddScoped<IPlanRepository, PlanRepository>();
-            //services.AddScoped<IShoppingListRepository, ShoppingListRepository>();
-            //services.AddSingleton<IShoppingListModel, ShoppingListModel>();
+            services.AddScoped<ITripRepository, TripRepository>();
 
             //// Auto mapper
             //AutoMapperConfig.InitializeMapper();

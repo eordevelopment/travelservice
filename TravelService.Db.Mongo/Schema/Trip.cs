@@ -1,34 +1,23 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Runtime.Serialization;
+using MongoDB.Bson;
+using TravelService.Contract;
 
-namespace TravelService.Contract
+namespace TravelService.Db.Mongo.Schema
 {
-    [DataContract]
-    public class TripDto
+    public class Trip : IDocument
     {
-        [DataMember]
-        public string Id { get; set; }
+        public ObjectId Id { get; set; }
+        public string UserToken { get; set; }
 
-        [DataMember]
         public string Name { get; set; }
-
-        [DataMember]
         public DateTimeOffset From { get; set; }
-
-        [DataMember]
         public DateTimeOffset To { get; set; }
-
-        [DataMember]
         public string Key { get; set; }
 
-        [DataMember]
         public List<Flight> Flights { get; set; }
-        [DataMember]
         public List<CarRental> CarRentals { get; set; }
-        [DataMember]
         public List<Hotel> Hotels { get; set; }
-        [DataMember]
         public List<Activity> Activities { get; set; }
     }
 }
