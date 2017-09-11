@@ -20,6 +20,7 @@ namespace TravelService.Contract
         [DataMember]
         public Coord Location { get; set; }
 
+        [DataMember]
         public List<Link> Links { get; set; }
     }
 }

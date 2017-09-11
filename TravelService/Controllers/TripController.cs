@@ -87,7 +87,7 @@ namespace TravelService.Controllers
                     {
                         Note = "Compact 4-door manual with A/C",
                         PickupTime = new DateTimeOffset(2017, 9, 30, 13, 0, 0, TimeSpan.FromHours(2)),
-                        DropOffTime = new DateTimeOffset(2017, 10, 13, 8, 3, 0, TimeSpan.FromHours(2)),
+                        DropOffTime = new DateTimeOffset(2017, 10, 13, 8, 0, 0, TimeSpan.FromHours(2)),
                         Location = new Coord
                         {
                             Lat = -29.6147542,
@@ -249,6 +249,7 @@ namespace TravelService.Controllers
                 {
                     new Activity
                     {
+                        Name = "Journey to St. Lucia",
                         Description = "Located at the southern end of World Heritage-listed iSimangaliso Wetland Park, St Lucia provides a great base for a range of activities including turtle tours, hippo boat cruises and snorkelling at Cape Vidal.",
                         StartTime = new DateTimeOffset(2017, 10, 1, 0, 0, 0, TimeSpan.FromHours(2)),
                         Links = new List<Link>
@@ -265,21 +266,25 @@ namespace TravelService.Controllers
                     },
                     new Activity
                     {
+                        Name = "Journey to Thanda",
                         Description = "Journey into the heart of KwaZulu-Natal’s big game country for a stay at the stylish Thanda Tented Camp. Enjoy game drives in search of elusive cheetah, hyena and of course the Big 5.",
                         StartTime = new DateTimeOffset(2017, 10, 3, 0, 0, 0, TimeSpan.FromHours(2))
                     },
                     new Activity
                     {
+                        Name = "Journey to Northern Drakensberg",
                         Description = "Explore river valleys on horseback, test your skills on a mountain bike trail or try your hand at fly fishing or golf. Don’t miss a trek in the uKhahlamba Drakensberg Park to marvel at the incredible Drakensberg Amphitheatre, a sheer 500m high rock wall which stretches over 5km, complete with one of the highest waterfalls in the world.",
                         StartTime = new DateTimeOffset(2017, 10, 5, 0, 0, 0, TimeSpan.FromHours(2))
                     },
                     new Activity
                     {
+                        Name = "Journey to Central Drakensberg",
                         Description = "This picturesque corner of South Africa is renowned for its wide range of outdoor activities, suitable for all the family. Explore the area by mountain bike or on horseback, try your hand at trout fishing, enjoy a picnic with a view or zip along on a canopy tour through lush indigenous forest.",
                         StartTime = new DateTimeOffset(2017, 10, 7, 0, 0, 0, TimeSpan.FromHours(2))
                     },
                     new Activity
                     {
+                        Name = "Journey to Horwick",
                         Description = "Spend the next couple of days exploring the surrounding area near Howick, affectionately known as the Midlands Meander. Indulge in some cake in one of the charming tea rooms, sample local produce including homemade cheeses and beers and browse for souvenirs in one of the many craft shops or art galleries.",
                         StartTime = new DateTimeOffset(2017, 10, 9, 0, 0, 0, TimeSpan.FromHours(2)),
                         Links = new List<Link>
@@ -291,6 +296,7 @@ namespace TravelService.Controllers
                     },
                     new Activity
                     {
+                        Name = "Journey to Ballito",
                         Description = "It’s time for a well-earned rest on the golden sands of the Dolphin Coast. Relax by the pool, take a stroll along the promenade or visit popular Willards Beach. ",
                         StartTime = new DateTimeOffset(2017, 10, 11, 0, 0, 0, TimeSpan.FromHours(2)),
                         Links = new List<Link>
